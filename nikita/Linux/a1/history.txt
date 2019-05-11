@@ -1,0 +1,1000 @@
+   10  cd ..
+   11  ls
+   12  cd ..
+   13  ls
+   14  pwd
+   15  cd student/ca_irfanoglu/
+   16  ls
+   17  cd ../..
+   18  cd /
+   19  ls
+   20  cp bin /home/student/ca_irfanoglu
+   21  cd home/student/ca_irfanoglu/
+   22  ls
+   23  cd /
+   24  cp /bin home/student/ca_irfanoglu/
+   25  cp -r /bin home/student/ca_irfanoglu/
+   26  pwd
+   27  cd home/student/ca_irfanoglu/
+   28  ls
+   29  cd bin/
+   30  ls
+   31  cd ..
+   32  cp -r /var/data home/student/ca_irfanoglu/
+   33  ls
+   34  cd /
+   35  cp -r /var/data home/student/ca_irfanoglu/
+   36  cd home/student/ca_irfanoglu/
+   37  ls
+   38  tar -cf binEx.tar home/student/ca_irfanoglu/bin
+   39  ls
+   40  tar -cf binEx2.tar bin
+   41  ls
+   42  rm binEx.tar
+   43  ls
+   44  tar -jcf binExbzip2.tbz2 var/data
+   45  tar -jcf binExbzip2.tbz2 ~/var/data
+   46  tar -jcf binExbzip2.tbz2 ./var/data
+   47  pwd
+   48  cd ./var/data
+   49  cd ~/var/data
+   50  cd /var/data
+   51  cd ..
+   52  tar -jcf binExbzip2.tbz2 data
+   53  ls
+   54  cd var
+   55  ls
+   56  cd ..
+   57  ls
+   58  clear
+   59  ll
+   60  cd ~
+   61  ll
+   62  rm -rf bin/
+   63  ll
+   64  rm -rf test/ 
+   65  ll
+   66  clear
+   67  ls
+   68  cp /bin home/student/ca_irfanoglu/
+   69  cd ..
+   70  cp /bin home/student/ca_irfanoglu/
+   71  ls
+   72  cd home/student/ca_irfanoglu/
+   73  ls
+   74  cd /
+   75  cp bin home/student/ca_irfanoglu/
+   76  ls
+   77  cp -r /bin home/student/ca_irfanoglu/
+   78  cd home/student/ca_irfanoglu/
+   79  ls
+   80  tar -Jcf data.tar.xz data
+   81  ls
+   82  tar -zcf test.tar.gz
+   83  file binEx2.tar
+   84  ls
+   85  cd data/
+   86  ls
+   87  cp alice29.txt  home/student/ca_irfanoglu/
+   88  ls
+   89  cp /alice29.txt  /home/student/ca_irfanoglu/
+   90  cp -r alice29.txt  /home/student/ca_irfanoglu/
+   91  cd ..
+   92  ls
+   93  nano alice29.txt 
+   94  head -5 alice29.txt 
+   95  tail -10 alice29.txt 
+   96  nano alice29.txt 
+   97  ps
+   98  kill -9 29362 
+   99  nano alice29.txt 
+  100  pwd
+  101  echo "line" >> 1> testecho.txt
+  102  echo "line" 1> testecho.txt
+  103  ls
+  104  nano testecho.txt 
+  105  echo "line" >> testecho.txt
+  106  nano testecho.txt 
+  107  di < testecho.txt 
+  108  ls -l /bin
+  109  ls
+  110  ls bin
+  111  ls bin >> binlist.txt
+  112  ls
+  113  nano binlist.txt
+  114  ls -l bin >> binlist2.txt
+  115  nano binlist2.txt
+  116  du binlist.txt
+  117  du -h binlist.txt
+  118  du -h binEx2.tar
+  119  /home/student | sort | head
+  120  /home/student# | sort | head
+  121  cd /
+  122  pwd
+  123  ls sort | head
+  124  ls
+  125  cd /home/student
+  126  ls | sort
+  127  ls | sort -r
+  128  du -s
+  129  du -s *
+  130  du -s * | sort -r
+  131  du -s * | sort -r | head
+  132  du -s * | sort -r -n | head
+  133  du -s * | sort -r | head
+  134  du -s * | sort -r -n | head
+  135  ls | sort
+  136  ls | sort ir
+  137  ls | sort -r
+  138  ls | sort -rt'_' k2
+  139  ls
+  140  ls | sort -rt'_' -k2
+  141  ls | sort -t'_' -k2
+  142  pwd
+  143  cd /ca_irfanoglu
+  144  ls
+  145  pwd
+  146  cd ca_irfanoglu/
+  147  ls | sort -t'_' -k2
+  148  ls
+  149  cd ..
+  150  ls
+  151  cd ca_irfanoglu/
+  152  pwd
+  153  ls | sort -t'_' -k2 ../
+  154  ls ../ | sort -t'_' -k2 
+  155  ls ../ | -e ca_ -e mh_
+  156  ls ../ | grep -e ca_ -e mh_
+  157  ls ../ | grep -e ca_ grep -e mh_
+  158  ls ../ | grep -e ca_ -e b_
+  159  nano /var/log/auth
+  160  ls
+  161  cd log
+  162  cd /
+  163  ls
+  164  cd var
+  165  cd log
+  166  ls
+  167  nano auth
+  168  cd /
+  169  ls
+  170  cd /var/log
+  171  ls
+  172  nano auth.log
+  173  cp auth.log /home/student/ca_irfanoglu
+  174  cd /home/student/ca_irfanoglu/
+  175  ls
+  176  nano auth.log
+  177  cd /var/log
+  178  ls
+  179  nano auth.log.1
+  180  cd /home/student/ca_irfanoglu/
+  181  ls
+  182  auth.log
+  183  auth.log grep a
+  184  nano auth.log grep an
+  185  cd /var/log
+  186  ls
+  187  cd /home/student/ca_irfanoglu/
+  188  grep ca_irfanoglu /var/log/auth*
+  189  grep ca_irfanoglu /var/log/auth* | grep sshd
+  190  history >> history.tt
+  191  history >> history.txt
+  192  cd ~
+  193  ls
+  194  rm history.tt
+  195  nano history.txt
+  196  ls /home/student | grep ca_
+  197  ls /home/student | grep ca
+  198  ls /home/student | grep lu$
+  199  ls /home/student | grep $lu
+  200  ls /home/student | grep ^a
+  201  ls /home/student
+  202  ls /home/student | grep ca_irfanoglu -e mn_hussain
+  203  ls /home/student | grep ca_irfanoglu
+  204  ls /home/student | grep ca_irfanoglu -e mn
+  205  ls /home/student | grep -e ca_irfanoglu -e mn
+  206  ls /home/student | grep ca_irfanoglu -e mn_hus
+  207  ls /home/student | grep -e ca_irfanoglu -e mn_hus
+  208  ls /home/student | grep (ca|mn)
+  209  ls /home/student | grep ca|mn
+  210  ls /home/student | grep ca*|mn*
+  211  ls /home/student | grep ca*
+  212  ls /home/student | grep ^ca*
+  213  ls /home/student | grep ^ca.
+  214  ls /home/student | grep ^ca.|^mn.
+  215  ls /home/student | grep ^ca.\|^mn.
+  216  ls /home/student | grep ^ca_|^mn.
+  217  ls /home/student | grep ^ca_
+  218  ls /home/student | grep ^ca_|mn_
+  219  ls /home/student | grep ^ca_|^mn_
+  220  ls /home/student | grep '^ca_|^mn_'
+  221  ls /home/student | grep ^ca_ | ^mn_
+  222  ls /home/student | grep (^ca_)|(^mn_)
+  223  ls /home/student | grep (^ca_)
+  224  ls /home/student | grep (^.._)
+  225  ls /home/student | grep ^.._
+  226  ls /home/student | grep ^c|m._
+  227  ls /home/student | grep ^ca.*
+  228  ls /home/student | grep -e ^ca.* -e^mn.* 
+  229  ls /home/student | grep -e ^ca* -e^mn* 
+  230  ls /home/student | grep -e ^ca.mn* -e^mn* 
+  231  ls /home/student | grep -e ^ca.mn*
+  232  ls /home/student | grep ^\(ca_|mn_)
+  233  ls /home/student | grep ^\(ca_\|mn_\)
+  234  ls /home/student | grep ^\(ca_\|mn_\)*
+  235  ls /home/student | grep ^\(ca_\|mn_\)
+  236  ls /home/student | grep '^\(ca_\|mn_\)'
+  237  ls /home/student | grep '(.)\1'
+  238  ls /home/student | grep '\(.\)\1'
+  239  ls /home/student | grep '\(..\)\1\2'
+  240  ls /home/student | grep '\(..\)\2'
+  241  ls /home/student | grep '\(.\)\1'
+  242  ls ../ | sort -t'_' -k2 
+  243  ls /home/student | grep '\(.\)\1'
+  244  ls /home/student -t'_' -k2 | grep '\(.\)\1
+  245  s
+  246  ls /home/student -t'_' -k2
+  247  ls /home/student | sort -t'_' -k2
+  248  ls /home/student | grep -t'_' -k2
+  249  ls /home/student | grep '_' -k2
+  250  ls /home/student | grep ^.._'\(.\)\1'
+  251  ls /home/student | grep '\(.\)\1'
+  252  A="$(echo 'one_two_three_four_five' | cut -d'_' -f2)"
+  253  A
+  254  "$(echo 'one_two_three_four_five' | cut -d'_' -f2)"
+  255  'test_string' | cut -d'_
+  256  '
+  257  'test_string' | cut -d'_' -f2
+  258  echo('test_string' | cut -d'_' -f2)
+  259  echo('test_string' | cut -d''' -f2)
+  260  string="A/B/C"
+  261  echo ${string} | cut -d"/" -f3
+  262  echo ${string} | cut -d"/" -f2
+  263  ls /home/student | cut -d"_" -f2 | grep ^.._'\(.\)\1'
+  264  ls /home/student | cut -d"_" -f2 | 
+  265  ls /home/student | cut -d"_" -f2 | grep '\(.\)\1'
+  266  ls /home/student | cut -d"_" -f1 | grep '\(.\)\1'
+  267  ls /home/student | cut -d"_" -f2 | grep '\(.\)\1'
+  268  ls /home/student | cut -d"_" -f1 | grep '(.)\1'
+  269  ls /home/student | cut -d"_" -f1 | grep '\(.\)\1'
+  270  ls /home/student | cut -d"_" -f2 | grep '\(.\)\1'
+  271  ls /home/student | cut -d"_" -f2 | egrep '(.)\1'
+  272  ls /home/student | cut -d"_" -f2 | grep '[^_]+\(.\)\1'$ 
+  273  ls /home/student | grep '[^_]+\(.\)\1'$ 
+  274  ls /home/student | grep '[^_]+\(.\)\1$' 
+  275  ls /home/student | grep '[^_]\(.\)\1$' 
+  276  ls /home/student | grep '*_\K[^_]\(.\)\1' 
+  277  ls /home/student | grep '*_\K\(.\)\1' 
+  278  ls /home/student | grep '_\K\(.\)\1' 
+  279  ls /home/student | grep '_+\K\(.\)\1' 
+  280  ls /home/student | grep '^*_+\K\(.\)\1' 
+  281  ls /home/student | grep '(^.*_)+\K\(.\)\1' 
+  282  ls /home/student | grep '(^.*_)\K\(.\)\1' 
+  283  ls /home/student | grep '[\n\r].*_\s*([^\n\r]\(.\)\1' 
+  284  ls /home/student | grep '[\n\r].*_\s*([^\n\r])\(.\)\1' 
+  285  ls /home/student | grep '[^/]+$\(.\)\1' 
+  286  ls /home/student | grep '[^_]+$\(.\)\1' 
+  287  ls /home/student | grep '[^_]+\(.\)\1' 
+  288  ls /home/student | grep '^.+_\(.\)\1
+  289  '
+  290  ls /home/student | grep '^.+_\(.\)\1'
+  291  ls /home/student | grep '^.+__.*\(.\)\1'
+  292  ls /home/student | grep '^.+__.*(.)\1'
+  293  ls /home/student | grep '^.+_.*(.)\1'
+  294  ls /home/student | grep '^.+_.+*(.)\1'
+  295  ls /home/student | egrep '^.+_.*(.)\1'
+  296  ls /home/student | egrep '_.*(.)\1'
+  297  ls /home/student | grep '_.*\(.\)\1'
+  298  ls /home/student | grep '_.*\(.\)\1*$'
+  299  ls /home/student | grep '_.*\(.\)\1'
+  300  ls /home/student | grep ca_irfanoglu
+  301  ls /home/student | grep ca_irfanoglu | tr 'a-z' 'A-Z'
+  302  ls /home/student | grep ca_irfanoglu | tr [:lower:] [:upper:]
+  303  ls /home/student | grep ca_irfanoglu | sed -r 's/^(..)\2\1/g'
+  304  ls /home/student | grep ca_irfanoglu 
+  305  ls /home/student | grep ca_irfanoglu | sed -r 's/^\(..\)\2\1/g'
+  306  ls /home/student | grep ca_irfanoglu | esed -r 's/^(..)\2\1/g'
+  307  ls /home/student | egrep ca_irfanoglu | sed -r 's/^(..)\2\1/g'
+  308  ls /home/student | egrep ca_irfanoglu | sed -r 's/^\(.\)\(.\)\2\1/g'
+  309  ls /home/student | egrep ca_irfanoglu | sed -r 's/(.)(.)\2\1/g'
+  310  ls /home/student | egrep ca_irfanoglu | sed -r 's/^(.)(.)\2\1/g'
+  311  ls /home/student | grep ca_irfanoglu | sed -r 's/^(.)(.)\2\1/g'
+  312  ls /home/student | grep ca_irfanoglu
+  313  ls /home/student | grep ca_irfanoglu | sed 's/^(.)(.)\2\1/g'
+  314  ls /home/student | grep ca_irfanoglu | sed -r 's/^(.)(.)\2\1/g'
+  315  history >> history.txt
+  316  exit
+  317  top
+  318  clear
+  319  pstree
+  320  ps
+  321  ps aux
+  322  ps aux 10
+  323  ps -ef
+  324  ?ps
+  325  top -H
+  326  clr
+  327  clear
+  328  /proc
+  329  top -H
+  330  cd /proc
+  331  cd 11359
+  332  cd 11359# ls
+  333  ls
+  334  cd 10196
+  335  ls
+  336  status
+  337  cd ..
+  338  status
+  339  ps -T
+  340  cd 10355
+  341  ls
+  342  ls -l
+  343  history
+  344  ps -T
+  345  clear
+  346  ls -l
+  347  cd /
+  348  pwd
+  349  ls
+  350  cd root
+  351  cd ~
+  352  pwd
+  353  ls
+  354  head alice29.txt
+  355  head 25 alice29.txt
+  356  head alice29.txt 25
+  357  sig
+  358  history
+  359  ps -T
+  360  ps aux
+  361  clear
+  362  ps
+  363  kill -9 12221
+  364  ps
+  365  sig
+  366  ps
+  367  bg
+  368  sig &
+  369  ps
+  370  sig &
+  371  ps
+  372  killall sig
+  373  ps
+  374  kill 12670
+  375  ps
+  376  kill -9 12670
+  377  ps
+  378  kill -9 12791
+  379  ps
+  380  nohup sig &
+  381  ps
+  382  exit
+  383  echo "test" | netcat 127.0.0.1 1212
+  384  exit
+  385  echo "test" | netcat 127.0.0.1 10330
+  386  echo "testSTring" | netcat 127.0.0.1 10330
+  387  netcat 127.0.0.1 10330
+  388  exit
+  389  ps
+  390  ps aux
+  391  clear
+  392  ps aux
+  393  ps aux | grep ca_irfanoglu
+  394  ps
+  395  ps aux | grep ca
+  396  ps aux | grep ca_
+  397  ps
+  398  kill -9 12800
+  399  ps aux | grep ca_
+  400  kill -9 13409
+  401  clear
+  402  netcat
+  403  netsat
+  404  netstat
+  405  netcat
+  406  netcat -l 1212
+  407  netcat -lv 10330
+  408  nc 127.0.0.1 10826 
+  409  tmux
+  410  ps
+  411  exit
+  412  tmux
+  413  exit
+  414  xit
+  415  exit
+  416  tmux
+  417  tmux attach
+  418  tmux
+  419  exit
+  420  ps
+  421  ls
+  422  ps
+  423  tmux
+  424  exit
+  425  tmux attach
+  426  exit
+  427  ls
+  428  ps
+  429  ls
+  430  ps aux
+  431  ps aux | grep ca_
+  432  exit
+  433  echo "hello world"
+  434  ps
+  435  tmux
+  436  tmux attach
+  437  ps
+  438  tmux attach
+  439  tmux
+  440  tmux 
+  441  men tmux 
+  442  man tmux 
+  443  ssh-keygen
+  444  pwd
+  445  ls
+  446  cd /.ss
+  447  cd /.ssh
+  448  cd .ssh
+  449  ls
+  450  cat id_rsa
+  451  "echo `cat ~/.ssh/id_rsa.pub` >> ~/.ssh/authorized_keys"
+  452  cd ~/.ssh/id_rsa
+  453  cd ~/.ssh/
+  454  ls
+  455  cd ~/.ssh/id_rsa
+  456  cd ~/.ssh
+  457  mkdir authorized_keys
+  458  "echo cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys"
+  459  ll
+  460  scp id_rsa.pub ca_irfanoglu@dev.cs.smu.ca:~
+  461  echo cat ~/.ssh/id_rsa.pub >> ~/.ssh/au
+  462  ssh ca_irfanoglu@dev.cs.smu.ca
+  463  exit
+  464  ssh ca_irfanoglu@dev.cs.smu.ca
+  465  clear
+  466  tmux
+  467  mysql -uusername -p --port=13306
+  468  mysql -ca_irfanoglu -p --port=10330
+  469  mysql ca_irfanoglu -p --port=10330
+  470  mysql
+  471  mysql -p
+  472  mysql -u ca_irfanoglu -p
+  473  A00425840
+  474  mysql -u ca_irfanoglu -p
+  475  mysql -u ca_irfanoglu -p --port=10330 --host=127.0.0.1
+  476  exit
+  477  ssh -L 10330:127.0.0.1:0330 ca_irfanoglu@dev.cs.smu.ca
+  478  clear
+  479  ssh -L 10330:127.0.0.1:3306 ca_irfanoglu@dev.cs.smu.ca
+  480  exit
+  481  tmux attach -T 10
+  482  tmux attach -t 10
+  483  clear
+  484  mysql -u ca_irfanoglu -p --port=10330 --host=127.0.0.1
+  485  nano
+  486  pwd
+  487  ls
+  488  mv testecho.txt testecho.sh
+  489  ls
+  490  chmod 755
+  491  chmod 755 testecho.sh 
+  492  vi testecho.sh 
+  493  ./testecho.sh 
+  494  vi testecho.sh 
+  495  date
+  496  sleep 3
+  497  vi testecho.sh 
+  498  ./testecho.sh 
+  499  vi testecho.sh 
+  500  ./testecho.sh 
+  501  vi testecho.sh 
+  502  ./testecho.sh 
+  503  vi testecho.sh 
+  504  ./testecho.sh 
+  505  vi testecho.sh 
+  506  ./testecho.sh 
+  507  vi testecho.sh 
+  508  ./testecho.sh 
+  509  vi testecho.sh 
+  510  ./testecho.sh 
+  511  vi testecho.sh 
+  512  ./testecho.sh 
+  513  vi testecho.sh 
+  514  ./testecho.sh 
+  515  vi testecho.sh 
+  516  ./testecho.sh
+  517  vi testecho.sh 
+  518  ./testecho.sh 
+  519  clear
+  520  ls bin
+  521  vi
+  522  nano
+  523  ./ex2.sh
+  524  chmod 755 ex2.sh
+  525  ./ex2.sh
+  526  nano ex2
+  527  nano ex2.sh
+  528  ./ex2.sh
+  529  nano ex2.sh
+  530  ./ex2.sh
+  531  nano ex2.sh
+  532  ./ex2.sh
+  533  nano ex2.sh
+  534  ./ex2.sh
+  535  nano ex2.sh
+  536  ./ex2.sh
+  537  nano ex2.sh
+  538  ./ex2.sh
+  539  nano ex2.sh
+  540  ./ex2.sh
+  541  nano ex2.sh
+  542  ./ex2.sh
+  543  nano ex2.sh
+  544  ./ex2.sh
+  545  nano ex2.sh
+  546  ./ex2.sh
+  547  nano ex2.sh
+  548  ./ex2.sh
+  549  nano ex2.sh
+  550  ./ex2.sh
+  551  nano ex2.sh
+  552  ./ex2.sh
+  553  pwd
+  554  ls
+  555  head bz.txt
+  556  head no_bz.txt
+  557  exit
+  558  ls
+  559  pwd
+  560  ls
+  561  ls -ll
+  562  clear
+  563  mkdir do
+  564  ls
+  565  cd do
+  566  pwd
+  567  cd .
+  568  pwd
+  569  cd ..
+  570  pwd
+  571  cd do
+  572  wget lnx.cs.smu.ca/docker/Dockerfile
+  573  pwd
+  574  ls
+  575  wget lnx.cs.smu.ca/docker/app.py
+  576  ls
+  577  docker build -t ca_irfanoglu_friendlyhello .
+  578  less app.py
+  579  docker build -t ca_irfanoglu_friendlyhello .
+  580  exit
+  581  docker build -t ca_irfanoglu_friendlyhello .
+  582  cd do
+  583  docker build -t ca_irfanoglu_friendlyhello .
+  584  ls
+  585  docker run -p 0330:80 friendlyhello
+  586  docker ps
+  587  docker run -p 0330:80 friendlyhello
+  588  docker container ls
+  589  docker run -p 0330:80 centos
+  590  docker container ls
+  591  docker pull centos
+  592  ls
+  593  docker run -it centos bash
+  594  docker container ls
+  595  docker container ls | grep 271f36c6bf03 
+  596  docker/image ls
+  597  docker image ls
+  598  docker run -it centos bash
+  599  docker pis -a | grep f98488b18d27
+  600  docker ps -a | grep f98488b18d27
+  601  docker ps -a 
+  602  docker ps -a | grep f98488b18d27
+  603  docker container rm relaxed_perlman
+  604  docker ps -a | grep f98488b18d27
+  605  docker ps
+  606  docker run -it centos bash
+  607  docker ps
+  608  docker ps -a
+  609  docker run -it centos/ca_irf bash
+  610  docker run -it centos bash
+  611  docker image rm centos
+  612  docker image rm centos/ca_irf
+  613  docker image rm centos/ca_irfanoglu
+  614  clear
+  615  docker ls
+  616  docker container ls
+  617  docker ps -a | grep 0330
+  618  docker ps -a | grep 330
+  619  docker ps -a
+  620  docker ps
+  621  docker run -dit --name ca_irfanoglu_centos1 centos bash
+  622  docker run -dit --name ca_irfanoglu_centos2 centos bash
+  623  docker ps
+  624  docker attach ca_irfanoglu_centos
+  625  docker container ls
+  626  docker network ls
+  627  docker network inspect bridge 
+  628  docker network inspect bridge | grep ca_irfanoglu
+  629  ping 172.17.0.20
+  630  yum install nc
+  631  pip install nc
+  632  clear
+  633  yum install nc
+  634  docker ps
+  635  yum install nc
+  636  docker attach ca_irfanoglu_centos1
+  637  docker run -dit --name ca_irfanoglu_centos3 centos bash
+  638  docker attach ca_irfanoglu_centos3
+  639  docker container rm 
+  640  docker ps
+  641  docker ps | grep ca_irf
+  642  docker ps -a | grep ca_irf
+  643  docker attach ca_irfanoglu_centos3
+  644  docker 
+  645  docker run -dit ca_irfanoglu_centos3
+  646  clear
+  647  docker ps -a | grep ca_irf
+  648  docker attach ca_irfanoglu_centos3
+  649  docker start ca_irfanoglu_centos3
+  650  docker attach ca_irfanoglu_centos3
+  651  docker rm ca_irfanoglu_centos1
+  652  docker ps -a | grep ca_irf
+  653  docker attach ca_irfanoglu_centos2
+  654  docker inspect ca_irfanoglu_centos2
+  655  clear
+  656  docker attach ca_irfanoglu_centos2
+  657  docker start -dit ca_irfanoglu_centos2
+  658  docker start -it ca_irfanoglu_centos2
+  659  docker start ca_irfanoglu_centos2
+  660  docker attach ca_irfanoglu_centos2
+  661  docker attach ca_irfanoglu_centos3
+  662  docker start ca_irfanoglu_centos3
+  663  docker attach ca_irfanoglu_centos3
+  664  docker network inspect bridge > dummy.txt
+  665  vi dummy.txt 
+  666  rm dummy.txt 
+  667  echo "BanCho" | nc 172.17.0.22 1234
+  668  docker attach ca_irfanoglu_centos3
+  669  docker rm ca_irfanoglu_centos2
+  670  docker rm ca_irfanoglu_centos3
+  671  docker ps -a | grep ca_irf
+  672  exit
+  673  ls
+  674  cd do
+  675  pwd
+  676  ls
+  677  less app.py
+  678  docker ps
+  679  less app.py
+  680  docker ps | grep 7af2b9c2198f
+  681  exit
+  682  ls
+  683  less alice29.txt 
+  684  pwd
+  685  cd ~
+  686  pwd
+  687  cd ../
+  688  cd ~
+  689  cd ~/bin/
+  690  cd ~
+  691  cd ./bin
+  692  pwd
+  693  ls
+  694  cd ~/nano
+  695  cd ./nano
+  696  cd ./nc
+  697  cd ../
+  698  ls
+  699  cd do
+  700  pwd
+  701  ls
+  702  cd Dockerfile
+  703  cd ~
+  704  vi answers.txt
+  705  pwd
+  706  cd ../../
+  707  cd ~
+  708  cd ../..
+  709  pwd
+  710  cd ~
+  711  vi answers.txt
+  712  cd ../
+  713  cd ~
+  714  cd ..
+  715  cd ~/
+  716  vi answers.txt 
+  717  cd /
+  718  cd /..
+  719  pwd
+  720  cd /.
+  721  pwd
+  722  clear
+  723  vi answers.txt
+  724  ls
+  725  pwd
+  726  cd ~
+  727  pwd
+  728  ls
+  729  vi answers.txt 
+  730  exit
+  731  pwd
+  732  ls -ll
+  733  ls -l
+  734  vi answers.txt 
+  735  clear
+  736  vi answers.txt 
+  737  wget -0 'https://archive.ics.uci.edu/ml/machine-learning-
+  738  databases/00235/household_power_consumption.zip'
+  739  wget 'https://archive.ics.uci.edu/ml/machine-learning-
+  740  databases/00235/household_power_consumption.zip'
+  741  wget https://archive.ics.uci.edu/ml/machine-learning-
+  742  databases/00235/household_power_consumption.zip
+  743  wget --help
+  744  wget https://archive.ics.uci.edu/ml/machine-learning-databases/00235/household_power_consumption.zip
+  745  ls
+  746  unzip household_power_consumption.zip 
+  747  ls
+  748  mkdir assignment1
+  749  mv household_power_consumption.txt household_power_consumption.zip answers.txt ~/assignment1
+  750  ls
+  751  cd assignment1/
+  752  ls
+  753  clear
+  754  history 
+  755  vi answers.txt 
+  756  less household_power_consumption.txt
+  757  awk household_power_consumption.txt
+  758  awk '{n++} END {print n}' household_power_consumption.txt
+  759  help --awk
+  760  awk --help
+  761  awk '{n++} END {print n}' household_power_consumption.txt
+  762  clear
+  763  head -5 household_power_consumption.txt
+  764  awk '{n++} END {print n}' hou
+  765  awk 'END { print NR }' household_power_consumption.txt
+  766  awk '^0-9 END { print NR }' household_power_consumption.txt
+  767  awk '^0-9' household_power_consumption.txt
+  768  awk '^1' household_power_consumption.txt
+  769  awk '{ if($0 == 1) print NR }' household_power_consumption.txt
+  770  awk '{ if($0 == 1) END print NR }' household_power_consumption.txt
+  771  awk 'END { if($0 == 1) print NR }' household_power_consumption.txt
+  772  awk 'END { if($0 == '1') print NR }' household_power_consumption.txt
+  773  awk 'END { if($0 == "1") print NR }' household_power_consumption.txt
+  774  head -5 household_power_consumption.txt
+  775  awk '^[0-9] { print NR }' household_power_consumption.txt
+  776  awk '/^[0-9] { print NR }' household_power_consumption.txt
+  777  awk '/^[0-9]/ { print NR }' household_power_consumption.txt
+  778  awk '/^[0-9]/ {n++} END {print n}' household_power_consumption.txt
+  779  vim answers.txt 
+  780  ls
+  781  less household_power_consumption.txt
+  782  head -1 household_power_consumption.txt
+  783  head -5 household_power_consumption.txt
+  784  sort -n -k 2 household_power_consumption.txt | head 10
+  785  sort -n -k 2 household_power_consumption.txt
+  786  sort -n -k 2 household_power_consumption.txt | head -10
+  787  sort -n -k 3 household_power_consumption.txt | head -10
+  788  sort -nk 3 household_power_consumption.txt | head -10
+  789  sort -nk 4 household_power_consumption.txt | head -10
+  790  sort --field-separator=';'-nk 3 household_power_consumption.txt | head -10
+  791  sort --field-separator=';'-nk3 household_power_consumption.txt | head -10
+  792  sort --field-separator=';' -nk3 household_power_consumption.txt | head -10
+  793  sort --field-separator=';' -nrk3 household_power_consumption.txt | head -10
+  794  sort --field-separator=';' -nrk3 household_power_consumption.txt | head -10 > gap_max.txt
+  795  sort --field-separator=';' -nrk3 household_power_consumption.txt | head -10 >> answers.txt
+  796  vim answers.txt 
+  797  less gap_max.txt 
+  798  vim answers.txt 
+  799  awk '$1=$1' FS="," OFS=":" household_power_consumption.txt | head - 10
+  800  awk '$1=$1' FS=";" OFS="," household_power_consumption.txt | head - 10
+  801  awk '$1=$1' FS=";" OFS="," household_power_consumption.txt > hpc.csv
+  802  head -10 hpc.csv 
+  803  awk '$1=$1' FS=";" OFS="," household_power_consumption.t
+  804  vim answers.txt 
+  805  awk '$1=$1' FS=";" OFS="," household_power_consumption.txt | head - 5
+  806  awk '$1=$1' FS=";" OFS="," household_power_consumption.txt | head -5 >> answers.txt 
+  807  vim answers.txt 
+  808  clear
+  809  head -5 hpc.csv
+  810  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | head -10
+  811  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | tail - 20
+  812  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | tail -20
+  813  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | head -20
+  814  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | head -20:30
+  815  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | head -50
+  816  clear
+  817  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | head -5
+  818  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' > transformed.csv
+  819  head transformed.csv 
+  820  history | grep 'sed'
+  821  cat transformed.csv | sed 's/Date/Year' > transformed.csv
+  822  cat transformed.csv | sed 's/Date/Year/' > transformed.csv
+  823  head transformed.csv 
+  824  head transformed.csv
+  825  less transformed.csv 
+  826  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' > transformed.csv
+  827  clear
+  828  head transformed.csv
+  829  cat transformed.csv | sed 's/Date/Year/' | head
+  830  cat transformed.csv | sed 's/Date/Year/' > transformed.csv
+  831  head transformed.csv 
+  832  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' > transformed.csv
+  833  sed 's/Date/Year/' transformed.csv
+  834  sed -i -r 's/Date/Year/' transformed.csv
+  835  head transformed.csv 
+  836  awk '{print $1,$3}' transformed.csv | head 
+  837  awk '{print}' transformed.csv | head 
+  838  awk '{pri
+  839  awk -F "," '{print $1}' transformed.csv | head 
+  840  awk -F "," '{print $1,$2}' transformed.csv | head 
+  841  awk -F "," '{print $1,$3}' transformed.csv | head 
+  842  awk -F "," '{print $1,$3,$4}' transformed.csv | head 
+  843  awk -F "," '{print $1,$3,$4,$6}' transformed.csv | head 
+  844  awk -F "," '{print $1,$3,$4,$6}' transformed.csv | head
+  845  awk -F "," '{print $1,$3,$4,$6}' transformed.csv > transformed_temp.csv && mv transformed_temp.csv transformed.csv
+  846  head transformed.csv 
+  847  clear
+  848  history
+  849  ls
+  850  vim answers.txt 
+  851  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | sed -i -r 's/Date/Year/' | awk -F "," '{print $1,$3,$4,$6}' > test.csv
+  852  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | sed -r 's/Date/Year/' | awk -F "," '{print $1,$3,$4,$6}' > test.csv
+  853  head
+  854  vim answers.txt 
+  855  head -5 transformed.csv >> answers.txt 
+  856  vim answers.txt 
+  857  head test.csv 
+  858  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | sed -r 's/Date/Year/' | awk -F "," '{print $1,","$3,","$4,","$6}' > transformed.csv
+  859  head transformed.csv
+  860  head hpc.csv
+  861  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | sed -r 's/Date/Year/' | head -3
+  862  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | sed -r 's/Date/Year/' | awk -F "," -vOFS = '' '{print $1,","$3,","$4,","$6}' > transformed.csv
+  863  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | sed -r 's/Date/Year/' | awk -F "," -vOFS ='' '{print $1,","$3,","$4,","$6}' > transformed.csv
+  864  cat hpc.csv | sed 's/[0-1][0-9]\/[0-3][0-9]\/\([12][0-9][0-9][0-9]\)/\1/g' | sed -r 's/Date/Year/' | awk -F "," -vOFS='' '{print $1,","$3,","$4,","$6}' > transformed.csv
+  865  head transformed.csv 
+  866  vim answers.txt 
+  867  head -5 transformed.csv >> answers.txt
+  868  vim answers.txt 
+  869  ls
+  870  rm test.csv 
+  871  clear
+  872  awk -F '","'  'BEGIN {OFS=","} { if (toupper($5) == "STRING 1")  print }' file1.csv > file2.csv  
+  873  awk -F '","'  'BEGIN {OFS=","} { if (toupper($5) == "STRING 1")  print }' transformed.csv 
+  874  awk -F '","'  'BEGIN {OFS=","} { if ($5) == 2.042)  print }' transformed.csv 
+  875  awk -F '","'  'BEGIN {OFS=","} { if ($5) == "2.042")  print }' transformed.csv 
+  876  awk -F ","  'BEGIN {OFS=","} { if ($5) == "2.042")  print }' transformed.csv 
+  877  awk -F '","'  'BEGIN {OFS=","} { if ($3) == "2.042")  print }' transformed.csv 
+  878  awk -F '","'  'BEGIN {OFS=","} { if $2 == "2.042")  print }' transformed.csv 
+  879  awk -F '","'  'BEGIN {OFS=","} { if $2 == "2.042") print }' transformed.csv 
+  880  awk -F ',' '{ if $2 == "2.042" print }' transformed.csv | head
+  881  awk -F ',' '{ if ($2 == 2.042) { print } }' transformed.csv | head
+  882  less transformed.csv 
+  883  cat hpc.csv | sed 's/[0-9]{1,2}\/[0-9]{1,2}\/([0-9]{4})/\1/g' | sed -r 's/Date/Year/' | awk -F "," -vOFS='' '{print $1,","$3,","$4,","$6}' > transformed.csv
+  884  cat hpc.csv | sed 's/[0-9]{1,2}\/[0-9]{1,2}\/([0-9]{4})/\1/g' | head
+  885  cat hpc.csv | sed -r 's/[0-9]{1,2}\/[0-9]{1,2}\/([0-9]{4})/\1/g' | head
+  886  cat hpc.csv | sed -r 's/[0-9]{1,2}\/[0-9]{1,2}\/([0-9]{4})/\1/g' | sed -r 's/Date/Year/' | awk -F "," -vOFS='' '{print $1,","$3,","$4,","$6}' >
+  887  head transformed.csv 
+  888  tail transformed.csv 
+  889  awk -F ',' '{ if ($2 == 2.042) { print } }' transformed.csv | head
+  890  vim answers.txt 
+  891  awk -F ',' '{ if ($2 == 2.042) { print } }' transformed.csv > 2p042.csv
+  892  less 2p042.csv 
+  893  head 2p042.csv 
+  894  awk {n++} END {print n} 2p042.csv 
+  895  awk '{n++} END {print n}' 2p042.csv 
+  896  vim answers.txt 
+  897  cat 2p042.csv | head
+  898  cat 2p042.csv | head -5
+  899  cat 2p042.csv | head -5 >> answers.txt
+  900  vim answers.txt 
+  901  awk '{n++} END {print n}' 2p042.csv
+  902  vim answers.txt 
+  903  awk -F ',' '{ if ($1 != 2007) { print } }' transformed.csv > tr_no2007.csv
+  904  less tr_no2007.csv 
+  905  cat tr_no2007.csv | grep 2007
+  906  cat tr_no2007.csv | grep 2008 | head
+  907  cat tr_no2007.csv | grep 2009 | head
+  908  vim answers.txt 
+  909  awk '{n++} END {print n}' tr_no2007.csv 
+  910  awk '/^[0-9]/{n++} END {print n}' tr_no2007.csv 
+  911  wc -l tr_no2007.csv 
+  912  wc tr_no2007.csv 
+  913  sed -i '' 1d file.csv
+  914  sed 1d tr_no2007.csv | wc -l 
+  915  sed 1d tr_no2007.csv | head
+  916  sed 1d tr_no2007.csv | shuf | head
+  917  sed 1d tr_no2007.csv | head | shuf | head
+  918  sed 1d tr_no2007.csv | shuf
+  919  sed 1d tr_no2007.csv | wc -l
+  920  split --help 
+  921  sed 1d tr_no2007.csv | shuf | split -n 3
+  922  sed 1d tr_no2007.csv | shuf | split -n3
+  923  sed 1d tr_no2007.csv | shuf | split -l 516554
+  924  ls
+  925  head xaa
+  926  head xab
+  927  head xac
+  928  wc -l xaa
+  929  wc -l xab
+  930  wc -l xac
+  931  sed 1d tr_no2007.csv | shuf | split -l 1549659/3
+  932  sed 1d tr_no2007.csv | shuf | split -l 516553
+  933  wc -l xaa
+  934  wc -l xab
+  935  wc -l xac
+  936  vim answers.txt 
+  937  sed 1d tr_no2007.csv | wc -l
+  938  vim answers.txt 
+  939  wc -l xaa
+  940  wc -l xaa xab
+  941  wc -l xaa xab xac
+  942  vim answers.txt 
+  943  ls
+  944  head file2.csv 
+  945  rm file2.csv 
+  946  ls
+  947  lzma 2p042.csv answers.txt 
+  948  ls
+  949  unlzma 2p042.csv.lzma answers.txt.lzma 
+  950  ls
+  951  tar -jcf arc.tar.xz gap_max.txt hpc.csv transformed.csv 2p042.csv tr_no2007.csv xaa xab xac
+  952  ls
+  953  rm arc.tar.xz
+  954  tar -jcf arc.tar.xz gap_max.txt hpc.csv transformed.csv 2p042.csv tr_no2007.csv xaa xab xac
+  955  ls
+  956  mkdir testtar
+  957  cp arc.tar.xz testtar/
+  958  cd testtar/
+  959  ls
+  960  tar -jxf arc.tar.xz
+  961  ls
+  962  head 2p042.csv 
+  963  head gap_max.txt 
+  964  head hpc.csv 
+  965  head transformed.csv 
+  966  head tr_no2007.csv 
+  967  head xaa
+  968  head xab
+  969  head xac
+  970  clear
+  971  cd ..
+  972  ls
+  973  ls -l
+  974  ls -ll
+  975  ls --help
+  976  ls -l -b M
+  977  ls -l -b=M
+  978  ls -l -b='M'
+  979  ls -lb 
+  980  ls -lb M
+  981  ls -lb 'M'
+  982  ls -l --block-size=M
+  983  clear
+  984  vim answers.txt 
+  985  mv answers.txt arc.tar.xz ~
+  986  ls
+  987  cd ~
+  988  ls
+  989  less answers.txt 
+  990  exit
+  991  ls
+  992  vim assignment1/
+  993  vim answers.txt 
+  994  scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/
+  995  scp -r ca_irfanoglu@lnx.smu.ca:/root/ /home/user/Desktop/
+  996  pwd
+  997  scp -r ca_irfanoglu@lnx.smu.ca:/home/student/ca_irfanoglu/answers.txt /Users/Caner/Desktop/SMU_Class/Managing_Info_Tech_5570/Linux/
+  998  scp -r ca_irfanoglu@lnx.cs.smu.ca:/home/student/ca_irfanoglu/answers.txt /Users/Caner/Desktop/SMU_Class/Managing_Info_Tech_5570/Linux/
+  999  scp -r ca_irfanoglu@lnx.cs.smu.ca:/home/student/ca_irfanoglu/answers.txt /Users/Caner/Desktop/
+ 1000  scp -r ca_irfanoglu@lnx.cs.smu.ca:/home/student/ca_irfanoglu/answers.txt /Users/Caner/Desktop
+ 1001  scp -r ca_irfanoglu@lnx.cs.smu.ca:/home/student/ca_irfanoglu /Users/Caner/Desktop/SMU_Class/Managing_Info_Tech_5570_Linux
+ 1002  history
+ 1003  ls
+ 1004  scp answers.txt ~
+ 1005  scp ca_irfanoglu@lnx.cs.smu.ca:~/answers.txt ~
+ 1006  ls -l
+ 1007  vim answers.txt 
+ 1008  cp ca_irfanoglu@lnx.cs.smu.ca:~/answers.txt ~
+ 1009  history > history.txt
